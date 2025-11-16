@@ -84,6 +84,7 @@ Since this is a static HTML file with no build process:
 **Website Type:**
 - Private portfolio website (non-commercial)
 - Austrian law applies (Mediengesetz § 25 Abs. 5)
+- Hosted on Cloudflare
 
 **Imprint (impressum.html):**
 - Minimal imprint per § 25 Abs. 5 Media Law
@@ -102,6 +103,16 @@ Both `index.html` and `impressum.html` contain footer disclaimers stating:
 - Explicitly states: "für nicht-kommerzielle Zwecke" (for non-commercial purposes)
 - Purpose: Professional exchange, networking, general inquiries
 - Uses mailto: link (no backend processing)
+
+**Privacy & Analytics:**
+- Uses Cloudflare Web Analytics (GDPR-compliant)
+- Cloudflare Web Analytics is:
+  - Cookie-free
+  - Does not collect personal data
+  - Does not collect IP addresses
+  - Does not enable cross-site tracking
+- Analytics script is automatically injected by Cloudflare during deployment (no manual script insertion needed)
+- Privacy information documented in impressum.html (Datenschutz section)
 
 **Important Note:**
 If this website is ever used to receive paid work or offer commercial services, it MUST be converted to a commercial site with:
