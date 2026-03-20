@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.wko.at)",
+      "WebFetch(domain:www.usp.gv.at)",
+      "WebFetch(domain:www.jusline.at)",
+      "WebFetch(domain:umami.is)",
+      "WebFetch(domain:www.ombudsstelle.at)",
+      "WebFetch(domain:www.internet4jurists.at)"
+    ]
+  }
+}
